@@ -1,0 +1,211 @@
+h4 {
+	width: 100%;
+	position: absolute;
+	font-size: 20px;
+opacity: 0.8;
+text-shadow: 0px 0px 2px #ffffff;
+}
+
+
+h5 {
+	width: 100%;
+	font-variant-caps: unicase;
+	margin-top: 580px;
+	font-size: 15px;
+	opacity: 0.8;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+	height: 100%;
+}
+
+.wrapper {
+	height: 100%;
+	 font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+.fixed {
+	height: 100%;
+}
+
+.fixed {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.amu {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+
+/* first section */
+
+.bg-1 {
+	background-image: url('forest_1.jpg');
+}
+
+/* third section */
+
+.bg-2 {
+	background-image: url('forest_2.jpg');
+}
+
+/* fifth section */
+
+.bg-3 {
+	background-image: url('fire_1.jpg');
+}
+
+/* seventh section */
+
+.bg-4 {
+	background-image: url('aus_fire.jpg');
+}
+
+/* ninth section */
+
+.bg-5 {
+	background-image: url('california.jpg');
+}
+
+/*eleventh section*/
+
+.bg-6 {
+	background-image: url('modis.jpg');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+.wrapper {
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.5;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+}
+
+.fixed {
+	color: white;
+}
+
+.scroll {
+	font-size: 20px;
+	padding: 10px 70px;
+	color: #858585;
+}
+
+.fixed {
+	width: 100%;
+	text-align: center;
+	display: table;
+}
+
+.bg-2 h1,
+.bg-3 h1,
+.bg-4 h1,
+.bg-5 h1,
+.bg-6 h1 {
+	font-size: 80px;
+	display: table-cell;
+	vertical-align: middle;
+	opacity: .8;
+	transition-duration: 0.5s;
+}
+
+.bg-2 h1:hover,
+.bg-3 h1:hover,
+.bg-4 h1:hover,
+.bg-5 h1:hover,
+.bg-6 h1:hover  {
+	transition-duration: 0.5s;
+	opacity: 1;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.bg-1 h1 {
+	position: absolute;
+	font-size: 80px;
+	height: 100%;
+	width: 100%;
+	margin-top: 260px;
+	opacity: 1;
+	text-shadow: 0px 0px 10px #ffffff;
+}
+
+.amu img {
+	opacity: 1;
+	height: 150px;
+	width: 150px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 0px;
+	transition-duration: 0.2s;
+}
+
+.amu img:hover {
+	transition-duration: 0.2s;
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.scroll {
+	background-color: #0f0f0a;
+}
+
+.bg-1 button {
+	display: inline-block;
+	margin-top: 50px;
+	margin-right: 20px;
+	text-align: center;
+	height: 50px;
+	width: 100px;
+	float: right;
+	padding: 12px;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: #229d37;
+	border: none;
+	color: #ffffff;
+	font-family: arial, calibri;
+	opacity: 0.4;
+	transition-duration: 0.2s;
+}
+
+.bg-1 button:hover {
+	opacity: 0.7;
+	background-color:#2c8c27;
+box-shadow:2px 4px 10px 2px #ffdf40;
+	transition-duration: 0.2s;
+}
+.scroll button {
+	display: inline-block;
+	text-align: center;
+	margin-left: 50%;
+	
+	width: 80px;
+	padding: 12px;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: #3b3b3b;
+	border: none;
+	color: #ffffff;
+	font-family: arial, calibri;
+	opacity: 0.7;
+	transition-duration: 0.1s;
+}
+
+.scroll button:hover {
+	background-color:#4f4f4f;
+	opacity: 1;
+	box-shadow: 0 0 10px 2px #ffffff;
+	transition-duration: 0.1s;
+}
